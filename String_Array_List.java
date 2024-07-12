@@ -1,9 +1,9 @@
-package JavaDSA;
+
 
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class String_Arra_List {
+public class String_Array_List {
     public static void main(String[] args) {
         String arr[] = {"Dog " , "Car " , "Elephant"};
         for (String value : arr ) {
