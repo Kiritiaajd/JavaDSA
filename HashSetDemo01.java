@@ -1,7 +1,6 @@
 
 import java.util.*;
 
-@SuppressWarnings("unused")
 public class HashSetDemo01 {
     @SuppressWarnings("unchecked")
     public static void main(String[] args) {
@@ -28,7 +27,7 @@ public class HashSetDemo01 {
         @SuppressWarnings("rawtypes")
         Iterator it = hs.iterator();
         while (it.hasNext()) {
-            System.out.print(it.next()+" ");
+            System.out.print(it.next()+"  ");
         }
 
     }
