@@ -1,4 +1,4 @@
-package JavaDSA;
+
  import java.util.*;
 public class Array_List {
     /**

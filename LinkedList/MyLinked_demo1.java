@@ -1,4 +1,4 @@
-package JavaDSA.LinkedList;
+
 
 import java.util.*;
 public class MyLinked_demo1 {
