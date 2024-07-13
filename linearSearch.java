@@ -22,6 +22,8 @@ public class linearSearch {
                          { -1, 2, -4 , 7},
                          { -9, 4, 5  , 8 },
                          { 7, 9, 0 } };
+
+                         print2darray(arr2);
         int[] res = search2Darray(arr2, target);
         System.out.println(Arrays.toString(res));
 
@@ -40,7 +42,14 @@ public class linearSearch {
         
         return min;
     }
-    
+      static void print2darray(int [][]arr){
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr[i].length; j++) {
+                System.out.print(arr[i][j]+" ");
+            }
+            System.out.println("");
+        }
+      }
     static int[] search2Darray(int[][] arr, int target) {
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr[i].length; j++) {
