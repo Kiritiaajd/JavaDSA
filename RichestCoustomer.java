@@ -1,3 +1,5 @@
+//https://leetcode.com/problems/richest-customer-wealth/description/
+
 public class RichestCoustomer {
     public static void main(String[] args) {
          int arr[][] = {{1,2 } ,{ 1,2,3} , {0, 0 , 0} , {4, 1,2 ,3}};
