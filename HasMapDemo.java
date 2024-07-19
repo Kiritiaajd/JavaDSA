@@ -1,10 +1,10 @@
 import java.util.HashMap;
-import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
 
 import javax.swing.text.html.HTMLDocument.Iterator;
 
+@SuppressWarnings("unused")
 public class HasMapDemo {
     public static void main(String[] args) {
         HashMap<Integer , String> hs = new HashMap<>();

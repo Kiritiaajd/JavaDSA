@@ -20,7 +20,6 @@ public static void main(String [] args) {
 	return -1;
  }
 public static  int findinrange(int arr[] , int target) {
-	int index=0;
 	int start = 0;
 	int end = 2;
 	while(target > arr[end]) {
