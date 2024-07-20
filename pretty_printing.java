@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 public class pretty_printing {
+    @SuppressWarnings("removal")
     public static void main(String[] args) {
         float f = 432.4899f;
         System.out.printf("%.2f\n" ,f );
