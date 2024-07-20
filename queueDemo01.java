@@ -1,7 +1,5 @@
 import java.util.PriorityQueue;
 
-import javax.swing.text.html.HTMLDocument.Iterator;
-
 public class queueDemo01 {
     public static void main(String[] args) {
         PriorityQueue<Integer> pq = new PriorityQueue<>();

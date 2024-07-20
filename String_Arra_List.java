@@ -11,6 +11,7 @@ public class String_Arra_List {
         }
 
         
+        @SuppressWarnings("rawtypes")
         ArrayList<String> al = new ArrayList(Arrays.asList(arr));
         System.out.println(al);
     }
