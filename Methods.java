@@ -9,5 +9,8 @@ public class Methods {
         System.out.println(name.indexOf('i')); // 1
         System.out.println(Arrays.toString(name.split(""))); // [K, i, r, i, t, i, a, a, j, a, d,  , R, a, j, d, h, e, e, r]
         System.out.println("  kiriti   ".strip()); //kiriti
+        System.out.println(Arrays.toString(name.split(" ")));
+       String str = "abcba";
+       System.out.println();
     }
 }
