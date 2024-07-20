@@ -8,10 +8,10 @@ public class String_Arra_List {
         String arr[] = {"Dog " , "Car " , "Elephant"};
         for (String value : arr ) {
             System.out.println(value);
-        }
+        }  
 
         
-        @SuppressWarnings("rawtypes")
+        @SuppressWarnings({ "rawtypes", "unchecked" })
         ArrayList<String> al = new ArrayList(Arrays.asList(arr));
         System.out.println(al);
     }

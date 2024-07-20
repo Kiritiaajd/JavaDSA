@@ -11,6 +11,7 @@ public class String_Array_List {
         }
 
         
+        @SuppressWarnings({ "rawtypes", "unchecked" })
         ArrayList<String> al = new ArrayList(Arrays.asList(arr));
         System.out.println(al);
     }
