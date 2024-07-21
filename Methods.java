@@ -11,6 +11,6 @@ public class Methods {
         System.out.println("  kiriti   ".strip()); //kiriti
         System.out.println(Arrays.toString(name.split(" ")));
        String str = "abcba";
-       System.out.println();
+       System.out.println(str);
     }
 }
