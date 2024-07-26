@@ -1,3 +1,3 @@
 # JavaDSA
-# this in my Dsa using Java 
+# practice DSA
 # Author Kiriti Aajad 
