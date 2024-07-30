@@ -1,7 +1,7 @@
 public class Recursion_001_pattern {
    public static void main(String[] args) {
      // Draw(5, 0);
-      Draw2(5, 0);
+      Draw2(3, 0);
    }
 
    static void Draw(int row, int col) {
