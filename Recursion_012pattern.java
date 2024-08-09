@@ -1,4 +1,4 @@
-public class Recursion_012patter {
+public class Recursion_012pattern {
     public static void main(String[] args) {
             fun(5, 0);
     }
