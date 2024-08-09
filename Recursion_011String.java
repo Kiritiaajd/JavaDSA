@@ -8,7 +8,7 @@ public class Recursion_011String {
     static String Substring(String str, String ans, int index) {
         if (index == str.length()) {
             return ans;
-        }
+        }    
 
         if (str.charAt(index) != 'a') {
             ans = ans + str.charAt(index);
@@ -18,4 +18,6 @@ public class Recursion_011String {
         }
 
     }
+
+    
 }
